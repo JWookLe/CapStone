@@ -1,11 +1,10 @@
 ﻿# CapStone
 
-Consolidated workspace containing backend, Android, and Spring MVC modules.
+Workspace containing the EmotionSync backend and Android client.
 
 ## Projects
 
-- `EmotionSyncServer/`: Spring Boot backend with Python-based recommendation service. Configure secrets via `EmotionSyncServer/.env` copied from `.env.example`.
-- `capstone/`: Android client application. Provide your Firebase configuration by copying `capstone/app/google-services.example.json` to `capstone/app/google-services.json`.
-- `SpringProject/`: Spring MVC registration/login sample. Supply datasource credentials through environment variables as described in `SpringProject/README.md`.
+- `EmotionSyncServer/`: Spring Boot backend with a Python recommendation service. Copy `.env.example` to `.env` and fill in database, OAuth, TMDB, and YouTube credentials before running.
+- `capstone/`: Android application. Provide Firebase configuration by copying `app/google-services.example.json` to `app/google-services.json` with your project details.
 
-Each module ships without sensitive credentials; populate the documented environment variables before running locally.
+Secrets and environment-specific files are intentionally excluded from version control.
