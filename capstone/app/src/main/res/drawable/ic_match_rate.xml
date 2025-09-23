@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- 바깥 원 -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="2"
+        android:pathData="M12,2 A10,10 0 1,1 11.99,2"/>
+    <!-- 게이지(70% 정도) -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FF9800"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M12,4 A8,8 0 1,1 19.5,12"/>
+    <!-- 중앙 점(원) -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M12,10.8 a1.2,1.2 0 1,0 0,2.4 a1.2,1.2 0 1,0 0,-2.4"/>
+</vector> 

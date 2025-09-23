@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/tvInviteLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="친구의 초대코드를 입력하세요"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/etInviteCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="초대코드 입력"
+        android:inputType="text"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnSendInvite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="친구 요청 보내기"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+</LinearLayout>

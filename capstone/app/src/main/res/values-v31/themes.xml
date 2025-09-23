@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 12+ 스플래시 스크린 테마 -->
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_gradient</item>
+        <item name="android:windowSplashScreenBackground">@drawable/background_gradient</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@mipmap/ljwk</item>
+        <item name="android:windowSplashScreenAnimationDuration">0</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:statusBarColor">@color/app_logo_background</item>
+        <item name="android:navigationBarColor">@color/app_logo_background</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources> 

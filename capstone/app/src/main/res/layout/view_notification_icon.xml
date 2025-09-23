@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!-- 종 아이콘 -->
+    <ImageView
+        android:id="@+id/ivBell"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:padding="4dp"
+        android:src="@drawable/ic_notification_bell"
+        android:contentDescription="알림" />
+
+    <!-- 빨간 점 (초기엔 GONE) -->
+    <View
+        android:id="@+id/badgeDot"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/badge_dot_background"
+        android:visibility="gone" />
+</FrameLayout>

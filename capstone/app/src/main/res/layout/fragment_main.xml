@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvEmotionInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="감정 이름"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvEmotionDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="감정 설명"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnMyInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="내 정보" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvMovies"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvMusic"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvYoutube"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <Button
+            android:id="@+id/btnShareWithFriends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="친구에게 공유" />
+
+        <Button
+            android:id="@+id/btnBackToHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="홈으로" />
+
+    </LinearLayout>
+</ScrollView>

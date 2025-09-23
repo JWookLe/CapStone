@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccentDark">#C51162</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#757575</color>
+    <color name="app_logo_background">#9C27B0</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="sky_blue">#87CEFA</color>
+    <color name="link_color">#2196F3</color>
+    <!-- 감정별 배경색 -->
+    <color name="joy_background">#FFF9C4</color>      <!-- 밝은 노란색 -->
+    <color name="sadness_background">#E3F2FD</color>  <!-- 밝은 파란색 -->
+    <color name="anger_background">#FFEBEE</color>    <!-- 밝은 빨간색 -->
+    <color name="anxiety_background">#F3E5F5</color>  <!-- 밝은 보라색 -->
+    <color name="like_color">#4CAF50</color>
+    <color name="dislike_color">#F44336</color>
+    <color name="primary">#3F51B5</color> <!-- 파란색 -->
+    <color name="green">#4CAF50</color>   <!-- 연두/초록 -->
+</resources>

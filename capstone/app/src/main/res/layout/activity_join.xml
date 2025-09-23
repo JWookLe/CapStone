@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="@drawable/background_gradient">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:src="@mipmap/ljwk" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+        android:fontFamily="@font/montserrat_regular"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- 이름 입력 -->
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="이름"
+                android:inputType="text"
+                android:privateImeOptions="defaultInputmode=korean"
+                android:imeOptions="actionNext"
+                android:padding="12dp"
+                android:background="@drawable/button_outline_background3"
+                android:layout_marginBottom="12dp" />
+
+            <!-- ID 입력 -->
+            <EditText
+                android:id="@+id/editId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Id"
+                android:inputType="text"
+                android:imeOptions="actionNext"
+                android:padding="12dp"
+                android:background="@drawable/button_outline_background3"
+                android:layout_marginBottom="12dp" />
+
+            <!-- 비밀번호 입력 -->
+            <EditText
+                android:id="@+id/editPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="비밀번호"
+                android:inputType="textPassword"
+                android:imeOptions="actionNext"
+                android:padding="12dp"
+                android:background="@drawable/button_outline_background3"
+                android:layout_marginBottom="12dp" />
+
+            <!-- 비밀번호 확인 -->
+            <EditText
+                android:id="@+id/editPasswordCheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="비밀번호 확인"
+                android:inputType="textPassword"
+                android:imeOptions="actionNext"
+                android:padding="12dp"
+                android:background="@drawable/button_outline_background3"
+                android:layout_marginBottom="12dp" />
+
+            <!-- 전화번호 라벨 -->
+            <TextView
+                android:id="@+id/textPhoneLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="전화번호"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="8dp" />
+
+            <!-- 전화번호 입력 필드 -->
+            <LinearLayout
+                android:id="@+id/phoneContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="24dp">
+
+                <EditText
+                    android:id="@+id/editPhone1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="010"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:padding="12dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_outline_background3"
+                    android:imeOptions="actionNext" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/white"
+                    android:gravity="center"
+                    android:padding="4dp" />
+
+                <EditText
+                    android:id="@+id/editPhone2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="0000"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:padding="12dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_outline_background3"
+                    android:imeOptions="actionNext" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/white"
+                    android:gravity="center"
+                    android:padding="4dp" />
+
+                <EditText
+                    android:id="@+id/editPhone3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="0000"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:padding="12dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_outline_background3"
+                    android:imeOptions="actionDone" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- 가입 버튼 -->
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가입하기"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white" />
+</LinearLayout>

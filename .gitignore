@@ -1,16 +1,8 @@
-# Compiled class file
+﻿# Global ignores
 *.class
-
-# Log file
 *.log
-
-# BlueJ files
 *.ctxt
-
-# Mobile Tools for Java (J2ME)
 .mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
 *.nar
@@ -18,7 +10,30 @@
 *.zip
 *.tar.gz
 *.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Environment files
+.env
+*.env
+EmotionSyncServer/.env
+EmotionSyncServer/.venv/
+EmotionSyncServer/venv/
+EmotionSyncServer/env/
+capstone/local.properties
+capstone/app/google-services.json
+
+# Build outputs
+EmotionSyncServer/.gradle/
+EmotionSyncServer/build/
+EmotionSyncServer/bin/
+EmotionSyncServer/EmotionSyncServer/.gradle/
+EmotionSyncServer/EmotionSyncServer/build/
+EmotionSyncServer/EmotionSyncServer/bin/
+capstone/.gradle/
+capstone/build/
+capstone/app/build/
+
+# IDE
+.idea/
+.vscode/
