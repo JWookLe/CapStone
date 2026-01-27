@@ -37,3 +37,10 @@ capstone/app/build/
 # IDE
 .idea/
 .vscode/
+
+# Docs/assets (local presentation files)
+docs/assets/
+docs/ppt_assets/
+ppt_Refactoring.pdf
+피피티.txt
+System_Achitecture.png
