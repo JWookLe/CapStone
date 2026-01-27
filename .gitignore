@@ -38,8 +38,7 @@ capstone/app/build/
 .idea/
 .vscode/
 
-# Docs/assets (local presentation files)
-docs/assets/
+# Local presentation sources (keep raw files out of git)
 docs/ppt_assets/
 ppt_Refactoring.pdf
 피피티.txt
