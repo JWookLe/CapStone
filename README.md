@@ -120,6 +120,10 @@ Android 앱, Spring Boot 백엔드, Python(Flask) 추천 서비스로 구성된 
 - 문제: 초대 코드 중복/만료/중복 요청 등 엣지 케이스 처리 미흡
 - 해결: UUID 고유 코드 + 24시간 만료 정책 + JPA 트랜잭션 기반 양방향 관계 보장
 
+<p align="center">
+  <img src="docs/assets/challenge-friend-request.png" width="900" alt="친구 요청 로직 개선" />
+</p>
+
 **3) WebSocket Real-time Sync**
 - 문제: 연결 불안정 시 메시지 순서 꼬임, 전송 오류로 앱 크래시
 - 해결: WebSocketManager 싱글톤 + 연결 상태 Safety Guard + 서버 저장 후 동기화
