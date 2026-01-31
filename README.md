@@ -1,5 +1,5 @@
 ﻿<p align="center">
-  <img src="docs/assets/cover.jpg" width="900" alt="EmotionSync cover" />
+  <img src="docs/assets/cover_Change.png" width="900" alt="EmotionSync cover" />
 </p>
 
 # EmotionSync (CapStone)
