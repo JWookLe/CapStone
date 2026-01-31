@@ -136,6 +136,10 @@ Android 앱, Spring Boot 백엔드, Python(Flask) 추천 서비스로 구성된 
 - 문제: 엔티티 직접 반환 시 순환 참조 발생으로 StackOverflowError
 - 해결: DTO 패턴 도입으로 필요한 데이터만 매핑
 
+<p align="center">
+  <img src="docs/assets/challenge-json-circular.png" width="900" alt="JSON Circular Reference" />
+</p>
+
 ---
 
 ## 내 역할 (팀 리더 / 기여도 약 70%)
